@@ -62,7 +62,7 @@ const ClassSelection = () => {
   return (
     <Container>
       <Card>
-        <Heading>Select Class</Heading>
+        <Heading>Select a Class</Heading>
         <Select value={selectedClass} onChange={handleClassSelect}>
           <option value="">Select a class</option>
           <option value="AIML-A">AIML-A</option>
